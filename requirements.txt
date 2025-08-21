@@ -1,0 +1,11 @@
+langchain 
+langchain-community
+langchain-openai
+openai 
+pypdf2 
+pypdf
+faiss-cpu
+tiktoken
+streamlit
+langchain-google-genai
+
