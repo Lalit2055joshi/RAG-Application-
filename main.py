@@ -27,7 +27,7 @@ gemini_api_key = st.secrets["GEMINI_API_KEY"]
 # os.environ["OPENAI_API_KEY"] = api_key
 
 # Set gemini api
-os.environ["GOOGLE_API_KEY"] = gemini_api_key
+# os.environ["GOOGLE_API_KEY"] = gemini_api_key
 
 def setup_rag_pipeline(pdf_path):
     # Ensure event loop exists in this thread
