@@ -11,15 +11,17 @@ from dotenv import load_dotenv
 from langchain_google_genai import GoogleGenerativeAIEmbeddings
 
 import asyncio
+import streamlit as st
 
 load_dotenv()
 
 # Access the API key
 # api_key = os.getenv("OPENAI_API_KEY")
-
+# for streamlit production
+gemini_api_key = st.secrets["GEMINI_API_KEY"]
 
 # Gemini api key
-gemini_api_key = os.getenv("GEMINI_API_KEY")
+# gemini_api_key = os.getenv("GEMINI_API_KEY")
 
 # Set your OpenAI API key
 # os.environ["OPENAI_API_KEY"] = api_key
